@@ -21,8 +21,9 @@ if st.button("Find Top Matches"):
 
         ranked = rank_resumes(job_description, resume_data)
 
-        st.subheader("Top 3 Candidates:")
-        for i, (name, score, text) in enumerate(ranked[:3]):
+        st.subheader("Top 5 Candidates:")
+        for i, (name, score, text) in enumerate(ranked[:5]):
             st.markdown(f"**{i+1}. {name}** - Match Score: `{score:.2f}`")
             with st.expander("View Resume Text"):
+
                 st.write(text) 
