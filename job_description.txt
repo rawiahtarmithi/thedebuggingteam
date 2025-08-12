@@ -1,0 +1,4 @@
+We're looking for a Data Analyst with:
+- 3+ years experience
+- Strong skills in Python, SQL, and data visualization
+- Familiarity with Excel and BI tools (Power BI, Tableau)
